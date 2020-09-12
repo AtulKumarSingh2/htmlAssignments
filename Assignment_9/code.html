@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body bgcolor="cyan">
+    <h1>Reservation Request</h1>
+    <form>
+        <fieldset>
+            <legend>General Inforrmation</legend>
+            <label for="arrivaldate">Arrival Date: </label>
+            <input required type="date" name="arrivaldate" id="input1">
+            <br>
+            <br>
+            <label for="Nights">Nights:</label>
+            <input type="number" required>
+            <br>
+            <br>
+            <label for="adults">Number Of Adults:</label>
+            <select name="adults" id="" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <br>
+            <label for="children">Number Of Children:</label>
+            <select name="children" id="" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <h5>Please Note That Maximum Number Of People Can Only be 10</h5>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Preferences
+            </legend>
+            <label for="roomtype">Room Type:</label>
+            <input type="radio" name="roomtype" id="roomtype1">
+            Standard
+            <input type="radio" name="roomtype" id="roomtype2">
+            Business
+            <input type="radio" name="roomtype" id="roomtype3">
+            Suite
+            <br>
+            <br>
+            <label for="bed">Bed Type:</label>
+            <input type="radio" name="bed" id="bed1">
+            King
+            <input type="radio" name="bed" id="bed2">
+            Double Double
+            <br>
+            <br>
+            <label for="smoker">Are you a smoker:</label>
+            <input type="radio" name="smoker" id="y">
+            Yes
+            <input type="radio" name="smoker" id="n">
+            no
+            <br>
+            <br>
+            <label for="vegtype">Which Type Of Eater Are You:</label>
+            <input type="text" list="Eater">
+            <datalist name="vegtype" id="Eater">
+                <option value="Vegetarian"></option>
+                <option value="Non-Vegetarian"></option>
+                <option value="Both"></option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Your Name Here" required>
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" required>
+            <br>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="num" required pattern="[1-9]{1}[0-9]{9}">
+            <br>
+            <br>
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" required>
+        </fieldset>
+        <fieldset>
+            <legend>Distance Information</legend>
+            <label for="fuel">Fuel Meter</label>
+            <meter name="fuel" id="fuel" min="0" max="100" value="56" optimum="80" high="60" low="30"></meter>
+            <br>
+            <label for="prog">Your Progress Bar</label>
+            <progress id="prog" name="prog" max="100" min="0" value="80"></progress>
+            <!--I have Put Fuel and Prgress values by myself-->
+            <br>
+            <br>
+            <label for="place">Write About the Visit Place :-</label>
+            <br>
+            <textarea name="place" id="place" cols="30" rows="10" placeholder="Enter Your Paragraph"></textarea>
+            <br>
+            <label for="fedback">Feedback:-</label>
+            <br>
+            <textarea name="fedback" id="fedback" cols="30" rows="10" required placeholder="Enter Your Feedback Here"></textarea>
+        </fieldset>
+        <input type="submit" name="sumit" id="submit">
+    </form>
+</body>
+</html>
