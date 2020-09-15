@@ -1,0 +1,27 @@
+#fph1{
+    color: blue;
+}
+.lph1{
+    color: chocolate;
+}
+#forveg{
+    color: crimson;
+}
+#kidbean{
+    color: green;
+}
+#img{
+    color: lawngreen;
+}
+#benifits{
+    color: magenta;
+}
+.ing{
+    color: springgreen;
+}
+#descrip{
+    color: rgb(44, 15, 207);
+}
+.danger{
+    color: red;
+}
