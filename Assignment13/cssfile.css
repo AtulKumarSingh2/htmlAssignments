@@ -1,0 +1,37 @@
+body{
+    background-color: red;
+}
+.nav{
+    padding: 25px;
+    font-size: large;
+    margin: 25px;
+    background-color: whitesmoke;
+    margin-left: 105px;
+    margin-right: 105px;
+    background-color:#1BCA9B;
+}
+.proj{
+    text-decoration: none;
+}
+.information{
+    background-color: whitesmoke;
+    background-color: #1BCA9B;
+    padding: 25px;
+    margin-left: 105px;
+    margin-right: 105px;
+    text-align: left;
+    margin: 50px;
+}
+.hi{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.name{
+    font-size: x-large;
+}
+.stud{
+    font-size: larger;
+}
+.about{
+    text-decoration: underline;
+}
