@@ -1,0 +1,23 @@
+#name{
+    text-align: center;
+    text-decoration: underline;
+    color: limegreen;
+}
+body{
+    background-color: black;
+}
+.quote{
+    text-align: center;
+    color: magenta;
+}
+.img{
+    align-items: center;
+    margin-left: 300px;
+}
+.imgdes{
+    text-align: center;
+    color: mediumturquoise;
+}
+#one{
+    color: palegreen;
+}
