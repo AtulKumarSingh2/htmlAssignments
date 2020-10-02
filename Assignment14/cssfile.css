@@ -1,0 +1,40 @@
+body{
+    border: 10px;
+    border-style: groove;
+    border-color: cyan;
+    background-color: black;
+}
+.leg{
+    color: royalblue;
+    text-decoration: underline;
+    text-align: center;
+}
+.boder{
+    border-style: double;
+    border-color: thistle;
+}
+.name{
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+}
+.img{
+    margin-left: 300px;
+    border-style: dotted;
+    border-width: 15px;
+    border-color: violet;
+}
+.des{
+    text-align: justify;
+    color: cornsilk;
+    font-size: 17px;
+}
+.wish{
+    color:red;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow:goldenrod 2px 3px 6px;
+    text-align: center;
+}
+
