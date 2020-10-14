@@ -1,0 +1,96 @@
+.title{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: cursive;
+}
+.title:hover{
+    background-color: blanchedalmond;
+    color:red;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img{
+    align-items: center;
+    margin-left: 250px;
+    background-color: black;
+}
+.about{
+    color: whitesmoke;
+    background-color: brown;
+    font-family: cursive;
+}
+.about:hover{
+    color:  green;
+    background-color: lightgreen;
+}
+.abt{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-family: cursive;
+}
+.abt:hover{
+    background-color: lightgoldenrodyellow;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abot{
+    color: whitesmoke;
+    background-color: brown;
+    font-family: cursive;
+}
+.abot:hover{
+    color: blue;
+    background-color: lightblue;
+}
+body{
+    background-color: teal;
+}
+.boder{
+    border-style: dotted;
+    color: teal;
+    border-color:pink;
+}
+div.weight input:out-of-range {
+    background-color: red;
+}
+div.weight input:in-range {
+background-color: yellowgreen;
+}
+
+input:in-range + label::after {
+content: 'correct guess';
+}
+
+input:in-range + label::before {
+content: 'Yay! ';
+}
+
+input:out-of-range + label::after {
+content: 'wrong guess';
+}
+input:out-of-range + label::before {
+content: 'ufff...';
+}
+div.quiz input:invalid {
+    background-color:red;
+    border: red;
+    border-radius: 5px;
+    border-width: 25px;
+}
+  
+div.quiz input:valid {
+    background-color: lightgreen;
+}
+div.colour input:invalid {
+    background-color:red;
+    border: red;
+    border-radius: 5px;
+    border-width: 25px;
+}
+  
+div.colour input:valid {
+    background-color: lightgreen;
+}
