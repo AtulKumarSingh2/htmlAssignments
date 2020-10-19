@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+
+.brname{
+    color: greenyellow;
+    background-color: chocolate;
+    text-align:center;
+}
+
+
+.img{
+    height: 200px;
+    width: 300px;
+    margin-left: 395px;
+    border-style: dotted;
+    border-color: crimson;
+}
+.img:hover{
+    border-style: groove;
+    border-color: cyan;
+    transition-duration: 3s;
+    height: 250px;
+    width: 400px;
+    margin-left: 350px;
+}
+.abt {
+    text-align: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+    font-weight: 900;
+    position: sticky;
+    top: 55px;
+    z-index: 1;
+}
+.para{
+    color: white;
+}
